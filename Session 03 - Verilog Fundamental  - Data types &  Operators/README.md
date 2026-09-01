@@ -14,10 +14,6 @@ This session introduced the fundamental syntax and concepts of Verilog HDL, incl
 - Conditional operator practice
 - Operator behavior verification using a testbench
 
-### Source Code
-
-- [`test_bench.v`](./tb/test_bench.v)
-
 ### What I Practiced
 
 - Declaring and assigning Verilog variables and values
