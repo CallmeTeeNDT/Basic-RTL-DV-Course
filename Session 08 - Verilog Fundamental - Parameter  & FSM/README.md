@@ -1,4 +1,4 @@
-## Session 08 – Parameterized RTL Design
+## SESSION 08 – PARAMETERIZED RTL DESIGN
 
 This session introduced parameterized RTL design as a technique for improving code reusability, configurability, and maintainability. The homework focused on applying Verilog parameters to previously developed hardware modules, allowing the same RTL implementation to support different bit-width configurations without rewriting the core design.
 
