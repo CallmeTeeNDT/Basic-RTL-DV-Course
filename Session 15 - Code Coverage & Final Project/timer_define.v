@@ -1,0 +1,36 @@
+`ifndef TIMER_DEFINE_VH
+`define TIMER_DEFINE_VH
+
+// TIMER_TOP REGISTER ADDRESS MAP
+`define ADDR_TCR 	12'h000
+`define ADDR_TDR0	12'h004
+`define ADDR_TDR1	12'h008
+`define ADDR_TCMP0	12'h00C
+`define ADDR_TCMP1	12'h010
+`define ADDR_TIER	12'h014
+`define ADDR_TISR	12'h018
+`define ADDR_THCSR	12'h01C
+
+// REGISTER RESET VALUES
+`define RESET_TCR        32'h0000_0100
+`define RESET_TDR0       32'h0000_0000
+`define RESET_TDR1       32'h0000_0000
+`define RESET_TCMP0      32'hFFFF_FFFF
+`define RESET_TCMP1      32'hFFFF_FFFF
+`define RESET_TIER       32'h0000_0000
+`define RESET_TISR       32'h0000_0000
+`define RESET_THCSR      32'h0000_0000
+
+// APB EXPECTED RESPONSE
+`define APB_NO_ERROR 	1'b0
+`define APB_ERROR	1'b1
+
+// APB BYTE STROBES
+`define STRB_NONE	4'b0000
+`define STRB_BYTE0	4'b0001
+`define STRB_BYTE1	4'b0010
+`define STRB_BYTE2	4'b0100
+`define STRB_BYTE3	4'b1000
+`define STRB_ALL	4'b1111
+
+`endif
