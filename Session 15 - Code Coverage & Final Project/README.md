@@ -5,6 +5,7 @@ This final project integrated the major RTL Design and Design Verification conce
 The Timer IP was implemented as an APB-controlled peripheral with a 64-bit programmable counter, configurable counting modes, interrupt generation, debug-halt support, byte-write access, one-cycle APB wait-state handling, and prohibited-access detection. The design was organized into five major functional blocks—APB Slave, Register, Counter Control, Counter, and Interrupt—with clear ownership of configuration and state to improve modularity, readability, and verification.
 
 ### My Final Project
+
 - **Advanced Timer IP – RTL Design & Verification**
   - Analyzed the Final Project requirements and developed the design specification
   - Defined the Timer IP architecture and inter-block interfaces
@@ -40,6 +41,7 @@ The Timer IP was implemented as an APB-controlled peripheral with a 64-bit progr
   - Completed final verification with all 15 directed testcases passing
 
 ### RTL Source Code
+
 - [`timer_top.v`](./rtl/timer_top.v)
 - [`timer_apb_slave.v`](./rtl/timer_apb_slave.v)
 - [`timer_reg.v`](./rtl/timer_reg.v)
@@ -48,6 +50,7 @@ The Timer IP was implemented as an APB-controlled peripheral with a 64-bit progr
 - [`timer_interrupt.v`](./rtl/timer_interrupt.v)
 
 ### Verification Environment
+
 - [`test_bench.v`](./tb/test_bench.v)
 - [`apb_tasks.vh`](./tb/apb_tasks.vh)
 - [`checker_tasks.vh`](./tb/checker_tasks.vh)
@@ -56,9 +59,11 @@ The Timer IP was implemented as an APB-controlled peripheral with a 64-bit progr
 - [`CHECKLIST.xlsx`](./doc/CHECKLIST.xlsx)
 
 ### Project Documentation
+
 - [`Final_Project_Report.pdf`](./doc/Final_Project_Report.pdf)
 
 ### What I Practiced
+
 - Translating specifications into RTL architecture and micro-architecture
 - Defining clear ownership of state across multiple RTL modules
 - Designing hierarchical and modular RTL
