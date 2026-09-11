@@ -5,6 +5,7 @@ This session focused on studying the AMBA Advanced Peripheral Bus (APB) protocol
 The presentation covered APB usage in SoC architectures, requester/completer communication, interface signals, read and write transfers, wait-state behavior, error responses, byte access using `PSTRB`, the APB operating state machine, and basic APB master/slave design concepts. I also reviewed the protocol from both RTL Design and Design Verification perspectives to better understand how an APB interface should be implemented and verified.
 
 ### My Presentation "AMBA APB Protocol – Group Presentation"
+
   - Introduced the purpose and practical use of APB in SoC architectures
   - Explained the relationship between high-performance buses and APB peripherals
   - Described the APB Requester/Completer interface
@@ -19,9 +20,11 @@ The presentation covered APB usage in SoC architectures, requester/completer com
   - Reviewed APB from RTL Design and Design Verification perspectives
 
 ### Presentation
+
 - [`APB PROTOCOL.pdf`](./APB%20PROTOCOL.pdf) – My group presentation
 
 ### What I Practiced
+
 - Reading and interpreting an industry-standard hardware protocol specification
 - Extracting technical requirements from official documentation
 - Understanding the role of APB in an SoC interconnect architecture
